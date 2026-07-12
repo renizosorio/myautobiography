@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="playlist css.css">
+</head>
+<body>
+
+<h1>My Playlist</h1>
+
+<div class="playlist">
+
+    <div class="song">
+        <img src="1stimg.png" alt="">
+        <p>All I Wish - Seo Ja Yeong</p>
+        <audio controls>
+            <source src="all i wish.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="song">
+        <img src="2ndimg.jpg" alt="">
+        <p>Day and Night - Jung Seung Hwan</p>
+        <audio controls>
+            <source src="Day & Night.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="song">
+        <img src="3rdimg.png" alt="">
+        <p>Gather My Tears - Seo Ji Won</p>
+        <audio controls>
+            <source src="Gather my tears.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="song">
+        <img src="4thimg.png" alt="">
+        <p>Beautiful Day - Gemini</p>
+        <audio controls>
+            <source src="beautiful day.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="song">
+        <img src="5thimg.png" alt="">
+        <p>MY LOVE - LeeHi</p>
+        <audio controls>
+            <source src="my love.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="song">
+        <img src="6thimg.jpg" alt="">
+        <p>Star - Colde</p>
+        <audio controls>
+            <source src="star.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <script>
+    const players = document.querySelectorAll("audio");
+
+    players.forEach(player => {
+    player.addEventListener("play", function () {
+
+        players.forEach(otherPlayer => {
+            if (otherPlayer !== player) {
+                otherPlayer.pause();
+                otherPlayer.currentTime = 0;
+            }
+        });
+
+    });
+});
+</script>
+
+</div>
+
+</body>
+</html>

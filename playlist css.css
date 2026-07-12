@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.song {
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2d2d2d;
+
+    /* Centers everything */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+
+.song:hover {
+    transform: scale(1.05);
+    border-color: #1DB954;
+}
+
+.song img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.song p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.song audio {
+    width: 100%;
+    margin-top: 10px;
+}
