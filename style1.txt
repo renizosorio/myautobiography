@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#title{
+    color: navy;
+    margin: 20px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    justify-content: center;
+    gap: 25px;
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.photo img:hover{
+    transform: scale(1.05);
+}
+
+.photo p{
+    margin-top: 10px;
+    font-weight: bold;
+}

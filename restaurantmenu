@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tenten's Restaurant Menu</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="title">Tenten's</h1>
+        <p class="welcome">
+            Welcome to Tenten's! Experience the rich flavors of authentic Filipino cuisine,
+            made with fresh ingredients and served with Filipino hospitality.
+        </p>
+
+        <div class="section appetizers">
+            <h2>🍤 Appetizers</h2>
+
+            <p>Lumpiang Shanghai <span>₱120</span></p>
+            <p>Tokwa't Baboy <span>₱140</span></p>
+            <p>Kwek-Kwek <span>₱80</span></p>
+        </div>
+
+        <div class="section main">
+            <h2>🍽 Main Course</h2>
+
+            <p>Chicken Adobo <span>₱220</span></p>
+            <p>Sinigang na Baboy <span>₱250</span></p>
+            <p>Kare-Kare <span>₱280</span></p>
+            <p>Crispy Pata <span>₱650</span></p>
+            <p>Lechon Kawali <span>₱320</span></p>
+        </div>
+
+        <div class="section drinks">
+            <h2>🥤 Drinks</h2>
+
+            <p>Calamansi Juice <span>₱60</span></p>
+            <p>Buko Juice <span>₱80</span></p>
+            <p>Sago't Gulaman <span>₱70</span></p>
+            <p>Fresh Mango Shake <span>₱120</span></p>
+        </div>
+
+        <div class="section desserts">
+            <h2>🍰 Desserts</h2>
+
+            <p>Halo-Halo <span>₱120</span></p>
+            <p>Leche Flan <span>₱90</span></p>
+            <p>Buko Pandan <span>₱100</span></p>
+            <p>Ube Halaya <span>₱110</span></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image: url("boracay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.spot{
+    margin: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#visit{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+#visit:hover{
+    background: darkblue;
+}

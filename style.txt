@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+#title{
+    text-align: center;
+    color: navy;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#spots{
+    text-align: center;
+    color: darkblue;
+    margin-top: 30px;
+}
+
+.places{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.place{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.place img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.place h3{
+    color: navy;
+}
+
+.place p{
+    font-weight: bold;
+}
+
+#visit{
+    display: block;
+    margin: 40px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#visit:hover{
+    background-color: dodgerblue;
+}
